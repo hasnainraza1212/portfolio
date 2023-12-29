@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hasanain - web developer </title>
+    <script src="../kit.fontawesome.com/b13cb5204a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <a href="#header"><h1><span>H</span>asnain.</h1></a>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars " id="bb" onclick="openmenu()"></i>
+            </nav>
+            <div class="containersub">
+                <div class="header-text" data-aos="fade-right" data-aos-delay="300">
+                    <h1>👋Hi, I'm <span> HASNAIN</span></h1>
+                    <p><span class="hiddenEmoji">👋👋</span> Web & App Developer</p>
+                </div>
+                <div class="header-image" ><img src="images/developer1.svg" alt="" data-aos="fade-left"  data-aos="fade-right" data-aos-delay="700"></div>
+            </div>
+        </div>
+    </div>
+<!--------header completed----------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-1ABOUT">
+                    <img src="images/me.svg" alt="">
+                </div>
+                <div class="col-2ABOUT">
+                    <h1 class="subtitle">About Me</h1>
+                    <p> I am a web & App Developer. I enjoy 
+                        building websites & App for small 
+                        and rich businesses. if you are 
+                        a business looking for a web 
+                        presence, you can get in touch
+                         with me. </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Front End</span><br>Building professional looking Websites with Advanced Front-End Frameworks.<br>
+                                    <div class="badgeContainer">
+                                        <span class="badge badge-pill badge-dark" data-aos="fade-right" data-aos-delay="200">react js <img width="18" src="./images/react.png" alt="react"/></span>
+                                        <span class="badge badge-pill badge-dark" data-aos="fade-right" data-aos-delay="500">mui <img width="18" src="./images/mui.png" alt="mui"/></span>
+                                        <span class="badge badge-pill badge-dark" data-aos="fade-right" data-aos-delay="800">bootstrap <img width="18" src="./images/bootstrap.webp" alt="bootstrap"/></span>
+                                        <span class="badge badge-pill badge-dark" data-aos="fade-right" data-aos-delay="1000">tailwind css <img width="18" src="./images/tailwind.png" alt="tailwind"/></span>
+                                        <span class="badge badge-pill badge-dark" data-aos="fade-right" data-aos-delay="1300">Ant Design <img width="18" src="./images/ant-design.png" alt="ant-design"/></span>
+                                        <span class="badge badge-pill badge-dark" data-aos="fade-right" data-aos-delay="1500">ionic <img width="27" src="./images/ionic.png" alt="ionic"/></span>
+                                    </div>
+                            </li>
+                            <li><span>Backend End</span><br>Building professional looking Websites with Advanced Back-End Frameworks and tools.<br>
+                                <div class="badgeContainer">
+                                    <span class="badge badge-pill badge-dark"  data-aos="fade-right" data-aos-delay="200">node js <img width="25" src="https://img.icons8.com/fluency/144/node-js.png" alt="node-js"/></span>
+                                    <span class="badge badge-pill badge-dark"  data-aos="fade-right" data-aos-delay="500">Express js <img width="18" src="./images/express.png" alt="express"/></span>
+                                    <span class="badge badge-pill badge-dark"  data-aos="fade-right" data-aos-delay="800">mongodb <img width="18" src="./images/leaf.png" alt="mongodb"/></span>
+                                    <span class="badge badge-pill badge-dark"  data-aos="fade-right" data-aos-delay="1000">slq <img width="18" src="./images/sql.png" alt="sql"/></span>
+                                    <span class="badge badge-pill badge-dark"  data-aos="fade-right" data-aos-delay="1300">firebase  <img width="15" src="./images/firebase.png" alt="firebase"/></span>
+                                    <span class="badge badge-pill badge-dark"  data-aos="fade-right" data-aos-delay="1600">cloudinary <img width="16" src="./images/cloudinary.png" alt="cloudinary"/></span>
+                                    <span class="badge badge-pill badge-dark"  data-aos="fade-right" data-aos-delay="1900">Passport js<img width="18" src="./images/passport.png" alt="passport"/></span>
+                                </div>
+                        </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Experience">
+                            <ul>
+                                <li><span>2022 - Present </span><br>Full Stack Developer at Innovatrix Technologies PVT LTD.</li>
+                                <li><span>2021 - 2022 </span><br>React JS Developer at NOP COMMERCE PVT LTD.</li>
+                                <li><span>2020 - 2021 </span><br>Frontend Developer at PIXACT PVT LTD.</li>
+
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Education">
+                            <ul>
+                                <li><span>Web & App Dvelopment Course</span><br>From SMIT.</li>
+                                <li><span>Full-Stack Dvelopment Course </span><br>From Govt of Sindh.</li>
+                                <li><span>Bachelor</span><br>From FUUAST.</li>
+                                <li><span>Higher Education</span><br>From PECHS College.</li>
+                            </ul>
+                        </div>
+                        </div>
+            </div>
+        </div>
+    </div>
+<!--------------about---------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">Services</h1>
+            <div class="services-list">
+                <div data-aos="fade-right" data-aos-delay="200">
+                    <img width="70" src="./images/react.png" alt="Front end"/>
+                    <h2 style="font-weight: 700;">Frontend Solutions</h2>
+                    <p style="font-size: 15px;" id="experience"></p>
+                </div>
+                
+                
+
+                <div data-aos="fade-right" data-aos-delay="500">
+                    <img width="70" src="https://img.icons8.com/fluency/144/node-js.png" alt="back end"/>
+                    <h2 style="font-weight: 700;">Backend Solutions</h2>
+                    <p style="font-size: 15px;">Transforming Ideas into robust backend code. Proficient in databases and server-side logic with unlimited revisions for your satisfaction.</p>
+                </div>
+                
+                
+
+                <div data-aos="fade-right" data-aos-delay="800">
+                    <img width="70" style="filter: invert(100%);" src="./images/moment.png" alt=""/>
+                    <h2 style="font-weight: 700;">On Time Delivery</h2>
+                    <p style="font-size: 15px;"> I always make sure that I develivered the work before time so that our client satisfied/happier so that we can  work again in future .</p>
+                       
+                </div>
+            </div>
+
+        </div>
+    </div>
+<!------------portfolio-------------->
+    <div id="portfolio">
+        <div class="container">
+            
+                <h1 class="subtitle">My Work</h1>
+                <div class="work-list">
+                    <div class="work"  data-aos="fade-right" data-aos-delay="600">
+                        <img src="images/11.png" alt="">
+                        <div class="layer">
+                            <p>Visit Galileogram</p>
+                            <a href="https://galileogram.netlify.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="work"  data-aos="fade-right" data-aos-delay="800">
+                        <img src="images/22.png" alt="">
+                        <div class="layer">
+                            <p>Visit Consultifyglobal</p>
+                            <a href="https://consultifyglobal.com/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="work"  data-aos="fade-right" data-aos-delay="1200">
+                        <img src="images/33.png" alt="">
+                        <div class="layer">
+                            <p>Visit Shopaaaholic</p>
+                            <a href="https://shopaaaholic.web.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+        </div>
+    </div>
+<!-------------contact--------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-Left"  data-aos="fade-right" data-aos-delay="300">
+                <h1 class="subtitle">Contact Me</h1>
+                <p style="width: fit-content;"><i class="fa-solid fa-paper-plane"></i> hr961992@gmail.com</i> </p>
+                <div class="social-icons">
+                    <a target="_blank" href="https://www.linkedin.com/in/hasnain-raza-78325a1b4/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a target="_blank" href="https://github.com/hasnainraza1212"><i class="fa-brands fa-github"></i></a>
+                    <a target="_blank" href="https://www.upwork.com/freelancers/hasnainraza"><i class="fa-brands fa-upwork"></i></a>
+                </div>
+                <a href="images\Hasnain-Developer-Resume-CV.pdf" class="btnCV" download>Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form id="myForm" name="contact" data-aos="fade-left" data-aos-delay="600" method="POST" data-netlify="true">
+                    <input type="text" name="Name" placeholder="Your Good Name" required>
+                    <input type="email" name="Email" placeholder="Email" required>
+                    <textarea name="message" placeholder="Your Message" rows="6"></textarea>
+                    <button type="submit" class="btnCV" id="formSubmit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p id="copyYear">Copyright © Hasnain Raza</p>
+    </div>
+</div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function closemenu(){
+            sidemenu.style.right = "-12rem";
+        }
+        function openmenu(){
+            sidemenu.style.right = "0rem";
+
+        }
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" ></script>
+    <script>
+  AOS.init();
+</script>
+<script src="./app.js"></script>
+</body>
+
+</html>
