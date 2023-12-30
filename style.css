@@ -911,7 +911,7 @@ nav .fas {
 }
 @media screen and (max-width:1300px) {
     .heroContainer{
-        height: 80vh;
+        height: calc(100vh - 200px);
         align-items:center;
          justify-content:space-around
     }
