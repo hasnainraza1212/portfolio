@@ -904,11 +904,23 @@ nav .fas {
 }
 .hiddenEmoji {
     visibility: hidden;
-    /* margin-left: -70px; */
 }
-
-@media screen and (min-width:1300px) {
+.heroContainer{
+    align-items:center;
+     justify-content:space-between
+}
+@media screen and (max-width:1300px) {
     .heroContainer{
         height: 100vh;
+        align-items:center;
+         justify-content:space-around
+    }
+}
+
+@media screen and (min-width:1300px) and (max-width:2000px) {
+    .heroContainer{
+        height: 100vh;
+        align-items:center;
+         justify-content:space-between
     }
 }
