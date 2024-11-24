@@ -1,13 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-
-<head>
-    <meta charset="UTF-8">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hasanain - web developer </title>
+    <title>Hasnain - Web & App Developer | Frontend & Backend Solutions</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Hi, I'm Hasnain, a web and app developer specializing in front-end and back-end solutions. Contact me for professional websites and apps for your business.">
+    <meta name="keywords" content="Hasnain, web developer, app developer, front-end development, back-end development, MERN stack, web development, app development, freelance developer">
+    <meta name="author" content="Hasnain Raza">
+
+    <!-- Open Graph Meta Tags for Social Media Sharing -->
+    <meta property="og:title" content="Hasnain - Web & App Developer | Frontend & Backend Solutions">
+    <meta property="og:description" content="Hi, I'm Hasnain, a web and app developer specializing in front-end and back-end solutions. Contact me for professional websites and apps for your business.">
+    <meta property="og:image" content="https://avatars.githubusercontent.com/u/168637160?s=400&u=16ec58858c1cb19acc82962ab569febb394d3ac8&v=4">
+    <meta property="og:url" content="https://hasnain-mern.netlify.app/">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Hasnain - Web & App Developer | Frontend & Backend Solutions">
+    <meta name="twitter:description" content="Hi, I'm Hasnain, a web and app developer specializing in front-end and back-end solutions. Contact me for professional websites and apps for your business.">
+    <meta name="twitter:image" content="https://avatars.githubusercontent.com/u/168637160?s=400&u=16ec58858c1cb19acc82962ab569febb394d3ac8&v=4">
+
+    <!-- Structured Data (JSON-LD) for Rich Results -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Hasnain",
+      "url": "https://hasnain-mern.netlify.app/",
+      "image": "https://avatars.githubusercontent.com/u/168637160?s=400&u=16ec58858c1cb19acc82962ab569febb394d3ac8&v=4",
+      "sameAs": [
+        "https://www.linkedin.com/in/hasnain-mern-developer",
+        "https://github.com/hasnainraza1212",
+        "https://www.upwork.com/freelancers/hasnainraza",
+        "https://www.facebook.com/hasnain.rizvi.146",
+        "https://www.instagram.com/__.hasnainraza/"
+      ],
+      "jobTitle": "Web and App Developer",
+      "email": "mailto:hr961992@gmail.com"
+    }
+    </script>
+
+    <!-- Google Tag Manager -->
+    <script>
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KF55NXCC');
+    </script>
+    <!-- End Google Tag Manager -->
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
@@ -15,9 +65,16 @@
 </head>
 
 <body>
+       <!-- Google Tag Manager (noscript) -->
+       <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KF55NXCC" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div class="particles_container">
+        <canvas id="particle_canvas"></canvas>
     <!-- updatedHero -->
     <div id="header">
-        <div class="container d-none d-lg-block">
+        <div class="container nav_link_header_section  d-none d-lg-block">
             <div class="">
                 <nav class="navbar navbar-expand text-white">
                     <div class="container-fluid text-white">
@@ -37,10 +94,10 @@
                 </nav>
             </div>
         </div>
-        <div class="container  d-lg-none">
+        <div class="container nav_link_header_section  d-lg-none">
             <div>
                 <label for="onCanvasCustom">
-                    <img width="50" height="50" id="onCanvasImg" src="./images/list.svg" />
+                    <img width="50" height="50" id="onCanvasImg" src="./images/list.svg" alt="menu"/>
                 </label>
                 <input type="button" id="onCanvasCustom" class="d-none" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
@@ -74,8 +131,9 @@
                 <h1>👋Hi, I'm <span> HASNAIN</span></h1>
                 <p><span class="hiddenEmoji">👋👋</span> Web & App Developer</p>
             </div>
-            <img src="images/developer1.svg" id="developerLogo" alt="" data-aos="fade-left"  data-aos="fade-right" data-aos-delay="700">
-        </div>
+            <img  src="images/developer1.svg" id="developerLogo" alt="Hasnain developer logo" data-aos="fade-left"  data-aos="fade-right" data-aos-delay="700">
+    </div>
+
     </div>
 
     <!-- updatedHero -->
@@ -85,7 +143,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-1ABOUT">
-                    <img src="images/me.svg" alt="">
+                    <img src="images/me.svg" alt="preson svg">
                 </div>
                 <div class="col-2ABOUT">
                     <h1 class="subtitle">About Me</h1>
@@ -155,10 +213,9 @@
                     </div>
                     <div class="tab-contents" id="Experience">
                         <ul>
-                            <li><span>Present </span><br>MERN Stack Developer at Innovatrix Technologies PVT LTD.
-                            </li>
-                            <li><span>2022 - 2023 </span><br>React JS Developer at NOP COMMERCE PVT LTD.</li>
-                            <li><span>2021 - 2022 </span><br>Frontend Developer at PIXACT PVT LTD.</li>
+                         
+                            <li><span>2024 - Present </span><br>MERN Stack Developer at Markcoders PVT LTD.</li>
+                            <li><span>2022 - 2024 </span><br>React JS Developer at NOP COMMERCE PVT LTD.</li>
 
                         </ul>
                     </div>
@@ -197,7 +254,7 @@
 
 
                 <div data-aos="fade-right" data-aos-delay="800">
-                    <img width="70" style="filter: invert(100%);" src="./images/moment.png" alt="" />
+                    <img width="70" style="filter: invert(100%);" src="./images/moment.png" alt="clock" />
                     <h2 style="font-weight: 700;">On Time Delivery</h2>
                     <p style="font-size: 15px;"> I always make sure that I develivered the work before time so that our
                         client satisfied/happier so that we can work again in future .</p>
@@ -207,6 +264,8 @@
 
         </div>
     </div>
+</div>
+    
     <!------------portfolio-------------->
     <div id="portfolio">
         <div class="container">
@@ -214,28 +273,28 @@
             <h1 class="subtitle">My Work</h1>
             <div class="work-list">
                 <div class="work" data-aos="fade-right" data-aos-delay="600">
-                    <img src="images/11.png" alt="">
+                    <img src="images/gulban.png" alt="gulban.com">
                     <div class="layer">
-                        <p>Visit Galileogram</p>
-                        <a href="https://galileogram.netlify.app/" target="_blank"><i
+                        <p>Visit Gulban</p>
+                        <a href="https://gulban.com" target="_blank" target="_blank"><i
                                 class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
 
                 <div class="work" data-aos="fade-right" data-aos-delay="800">
-                    <img src="images/22.png" alt="">
+                    <img src="images/sauced.webp" alt="sauced app">
                     <div class="layer">
-                        <p>Visit Consultifyglobal</p>
-                        <a href="https://consultifyglobal.com/" target="_blank"><i
+                        <p>Download Sauced</p>
+                        <a href="https://apps.apple.com/us/app/sauced-app/id6737129890" target="_blank" target="_blank"><i
                                 class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
 
                 <div class="work" data-aos="fade-right" data-aos-delay="1200">
-                    <img src="images/33.png" alt="">
+                    <img src="images/designtimelapse.png" alt="design Time-lapse">
                     <div class="layer">
-                        <p>Visit Shopaaaholic</p>
-                        <a href="https://shopaaaholic.web.app/" target="_blank"><i
+                        <p>Visit Design Time-lapse</p>
+                        <a href="https://designtimelapse.com/" target="_blank" target="_blank"><i
                                 class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
@@ -245,13 +304,22 @@
     </div>
     <!-------------contact--------------->
     <div id="contact">
+
+                <canvas  class="webgl"></canvas>
         <div class="container">
             <div class="row">
                 <div class="contact-Left" data-aos="fade-right" data-aos-delay="300">
                     <h1 class="subtitle">Contact Me</h1>
-                    <p style="width: fit-content;"><i class="fa-solid fa-paper-plane"></i> hr961992@gmail.com</i> </p>
+                    <p style="width: fit-content;"><i class="fa-solid fa-paper-plane">
+
+                    </i> 
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=hr961992@gmail.com" class="text-white text-decoration-none " target="_blank">hr961992@gmail.com</a>
+
+                    
+                </i> 
+                </p>
                     <div class="social-icons">
-                        <a target="_blank" href="https://www.linkedin.com/in/hasnain-raza-78325a1b4/"><i
+                        <a target="_blank" href="https://www.linkedin.com/in/hasnain-mern-developer"><i
                                 class="fa-brands fa-linkedin"></i></a>
                         <a target="_blank" href="https://github.com/hasnainraza1212"><i
                                 class="fa-brands fa-github"></i></a>
@@ -275,7 +343,16 @@
         <div class="copyright">
             <p id="copyYear">Copyright © Hasnain Raza</p>
         </div>
+        
     </div>
+    <script defer type="importmap">
+        {
+          "imports": {
+            "three": "https://cdn.jsdelivr.net/npm/three@0.150.0/build/three.module.js",
+              "addons/": "https://cdn.jsdelivr.net/npm/three@0.150.0/examples/jsm/"
+          }
+        }
+      </script>
     <script>
         var tablinks = document.getElementsByClassName("tab-links");
         var tabcontents = document.getElementsByClassName("tab-contents");
@@ -308,6 +385,7 @@
     </script>
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
     <script>
         $(document).ready(function () {
             // Smooth scroll to anchor links
@@ -323,7 +401,7 @@
             });
         });
     </script>
-    <script src="./app.js"></script>
+    <script defer type="module" src="./app.js"></script>
 </body>
 
 </html>
