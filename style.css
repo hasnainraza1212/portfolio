@@ -37,7 +37,7 @@ body {
 
 .offCanvasCustom{
     background-color: red !important;
-width: 50vw !important;
+/* width: 50vw !important; */
 box-sizing: border-box !important;
 }
 #onCanvasImg{
